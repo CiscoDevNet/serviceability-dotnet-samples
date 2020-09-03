@@ -19,8 +19,7 @@ Try this out in the [DevNet Sandbox Collaboration 12.5 lab](https://devnetsandbo
 
 * `selectCmDeviceExt_HttpClient` - Risport selectCmDeviceExt sample script, using DotNet Core HttpClient. Filters by device name, passing in two specific device names (`<selectCmDeviceExt>`)
 
-* `perfmonCollectCounterData` - Demonstrates retrieving/parsing the performance counter data from a specific
-object, in this case all Hunt Pilots. (`<perfmonCollectCounterData>`)
+* `perfmonCollectCounterData` - Demonstrates retrieving/parsing the performance counter data from a specific object, in this case all Hunt Pilots. (`<perfmonCollectCounterData>`)
 
 ## Getting started
 
