@@ -19,6 +19,9 @@ Try this out in the [DevNet Sandbox Collaboration 12.5 lab](https://devnetsandbo
 
 * `selectCmDeviceExt_HttpClient` - Risport selectCmDeviceExt sample script, using DotNet Core HttpClient. Filters by device name, passing in two specific device names (`<selectCmDeviceExt>`)
 
+* `perfmonCollectCounterData` - Demonstrates retrieving/parsing the performance counter data from a specific
+object, in this case all Hunt Pilots. (`<perfmonCollectCounterData>`)
+
 ## Getting started
 
 * From a terminal, use `git` to clone this repo to your PC, then change into the new directory:
@@ -68,12 +71,12 @@ Try this out in the [DevNet Sandbox Collaboration 12.5 lab](https://devnetsandbo
 
 * Rename `.env.example` to `.env`, and edit it to specify your CUCM address and API user credentials (be sure to save the file!)
 
-    Roles required per Serviceability API:
+    Roles required per Serviceability APIs:
 
     * **Risport** 
 
-        - `Standard CCM Admin Users` (provides access to the CCMAdmin domain where RisPort is hosted, but not to the CCMAdmin web UI)
-        - `Standard SERVICEABILITY Read Only` (to access Risport API)
+        - `Standard CCM Admin Users` (provides access to the CCMAdmin domain, but not to the CCMAdmin web UI)
+        - `Standard SERVICEABILITY Read Only`
 
 * To run a specific sample, open the **Run** tab in VS Code, select the sample from the launch dropdown, and click the green **Start Debugging** arrow (or press **F5**)
 
