@@ -5,17 +5,38 @@
    "version": "0.2.0",
    "configurations": [
         {
-            "name": "Launch selectCmDeviceExt_HttpClient.cs",
+            "name": "Launch selectCmDeviceExt_HttpClient",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/serviceability-dotnet-samples.dll",
+            "program": "${workspaceFolder}/src/selectCmDeviceExt_HttpClient/bin/Debug/netcoreapp3.1/selectCmDeviceExt_HttpClient.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/src/selectCmDeviceExt_HttpClient",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
-            "stopAtEntry": false
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false,
+            "logging": {
+                "moduleLoad": false // Suppress multiple 'Skipped loading symbols..' messages in debug output
+            }
+        },
+        {
+            "name": "Launch perfmonCollectCounterData",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/perfmonCollectCounterData/bin/Debug/netcoreapp3.1/perfmonCollectCounterData.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/perfmonCollectCounterData",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false,
+            "logging": {
+                "moduleLoad": false // Suppress multiple 'Skipped loading symbols..' messages in debug output
+            }
         }
     ]
 }
