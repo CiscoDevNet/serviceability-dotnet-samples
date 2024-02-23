@@ -8,9 +8,9 @@ These C# samples demonstrate how to use DotNet Core packages to interact with CU
 
 **Tested using:**
 
-* Ubuntu 20.04
-* DotNet Core 3.1
-* CUCM 12.5
+* Ubuntu 22.04
+* DotNet Core 8.0
+* CUCM 12.5/14/15
 * Visual Studio Code
 
 Try this out in the [DevNet Sandbox Collaboration 12.5 lab](https://devnetsandbox.cisco.com/RM/Diagram/Index/97563de1-5ace-4c0c-a03b-0f3eaae59d75?diagramType=Topology)

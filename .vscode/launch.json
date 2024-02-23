@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/selectCmDeviceExt_HttpClient/bin/Debug/netcoreapp3.1/selectCmDeviceExt_HttpClient.dll",
+            "program": "${workspaceFolder}/src/selectCmDeviceExt_HttpClient/bin/Debug/netcoreapp8.0/selectCmDeviceExt_HttpClient.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/selectCmDeviceExt_HttpClient",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
@@ -27,7 +27,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/perfmonCollectCounterData/bin/Debug/netcoreapp3.1/perfmonCollectCounterData.dll",
+            "program": "${workspaceFolder}/src/perfmonCollectCounterData/bin/Debug/netcoreapp8.0/perfmonCollectCounterData.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/perfmonCollectCounterData",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
